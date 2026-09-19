@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Лабораторна робота №1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main>
+    <section>
+        <details name="accordion">
+            <summary>Секція 1</summary>
+            <div>
+                <p>Вміст секції 1</p>
+            </div>
+        </details>
+
+        <details name="accordion">
+            <summary>Секція 2</summary>
+            <div>
+                <p>Вміст секції 2</p>
+            </div>
+        </details>
+
+        <details name="accordion">
+            <summary>Секція 3</summary>
+            <div>
+                <p>Вміст секції 3</p>
+            </div>
+        </details>
+    </section>
+
+    <section>
+        <form action="#">
+            <h3>Реєстрація</h3>
+
+            <div>
+                <label>Ім'я користувача:</label>
+                <input type="text" required>
+                <span>Поле обов'язковe для заповнення</span>
+            </div>
+
+            <div>
+                <label>Адреса електронної пошти:</label>
+                <input type="email" required>
+                <span>Введіть коректну електронну пошту</span>
+            </div>
+
+            <div>
+                <label>Пароль:</label>
+                <input type="password" required>
+                <span>Поле обов'язкове для заповнення</span>
+            </div>
+
+            <button type="submit">Зареєструватися</button>
+        </form>
+    </section>
+
+    <section>
+        <div>
+            <ul>
+                <li>
+                    <span>Рівень 1, Елемент 1</span>
+                    <ul>
+                        <li>
+                            <span>Рівень 2, Елемент 1</span>
+                            <ul>
+                                <li><span>Рівень 3, Елемент 1</span></li>
+                                <li><span>Рівень 3, Елемент 2</span></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span>Рівень 2, Елемент 2</span>
+                            <ul>
+                                <li><span>Рівень 3, Елемент 3</span></li>
+                                <li><span>Рівень 3, Елемент 4</span></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><span>Рівень 1, Елемент 2</span></li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
